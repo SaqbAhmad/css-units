@@ -1,0 +1,26 @@
+section{
+     width: 800px;
+     height: 160px;
+     border: 3px solid black;
+}
+/* height and width of div is depend on section. */
+section div{
+     width: 40%;
+     height:60%;
+     background-color: red;
+}
+ article{
+    font-size: 5px;/* HTML ka root size 16px hota hai */
+} 
+ul{
+    /* Hame snow balling effect dikhega */
+   /* font-size: 20px;*/
+    /*Doubt */
+    font-size: 2rem;
+}
+section:nth-of-type(2){
+    border: 2px solid black;
+    background-color: lightgreen;
+    height: 40vh;/* Vh is with respect to view height(viewport).*/
+    width:60vw;/* vw is with respect to view width(view port)*/
+}
